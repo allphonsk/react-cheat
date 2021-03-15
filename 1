@@ -1,0 +1,257 @@
+
+
+
+300 Packer Ave, Philadelphia, PA 19148
+
+
+
+# rfc
+
+# terminal in visual
+$ control tlida
+
+# open terminal from visual
+$ shift command c 
+
+
+# api
+http://www.omdbapi.com/?apikey=4896ff0a&s=town
+
+
+ 9 , 
+$ rafc,  cntr ~,
+# hooks cannot be conditions (if hook do ..)
+
+# start proptype
+$ rafc or rfacp
+$ pta/o/sr
+
+ 
+# create app
+# create npm build tool
+$ npm install -g create-react-app
+
+# create app
+$ npx create-react-app <NAME>L
+$ npx create-react-app reactapp
+$ npx create-react-app counter-app
+$ npx create-react-app profiles
+$ npx create-react-app twitter
+
+ 
+$ cd reactapp
+$ npm start
+
+
+#
+$ profiles.map( (profile) =>{ return {profile.name}});
+$ let newProfiles = profiles.filter((profile) => profile.id !== id);
+  setProfiles(newProfiles);
+
+# map, unique map, object to array
+  // const allCategories = items.map((item)=>{ return item.category});
+  // const allCategories = new Set(items.map((item)=>{ return item.category}));
+  // const allCategories = [ 'all', ...new Set(items.map((item)=>{ return item.category}))];
+
+# array from 
+# creates array of 5 values
+$ const temp = Array.from({length: 5})
+# creates call back function with (x,y) params. X is the item/value, y is the index
+$  const temp = Array.from({length: 5}, (x, y)=>{
+    console.log('temp ', y);
+  })
+
+
+# common dependancies
+$ import React from 'react'
+$ import { Link } from 'react-router-dom' 
+$ import ReactDOM from 'react-dom';
+$ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+# icons
+# install 
+$ npm install react-icons --save
+$ import {FaBeer} from 'react-icons/fa'
+$ <FaBeer />
+$ 
+
+#  font awesome
+$ npm i react-fontawesome --save
+import 'font-awesome/css/font-awesome.min.css';
+var FontAwesome = require('react-fontawesome')
+             <FontAwesome className="fa-arrow-up increase" name="fa-arrow-up" />
+
+
+# dependancies
+$ npm i react-router-dom --save   
+
+# images img
+$ <img src={require('./')} />
+ 
+##
+# npm install adds dependancies
+# npm install
+
+# npm build creates final folder
+$ npm run build
+
+# styles
+$ npm i styled-components
+# 
+$ yarn global add serve
+$ serve -s build
+
+
+# after getting repo code
+$ npm install
+$ npm install && npm start
+
+
+# time date
+$ npm install moment --save
+$ import Moment from 'moment';
+$ const date = Moment(createdAt).format('d/MMM/YY'); // ('d MMM YY') ('d MMM YY')
+
+$ npm i bootstrap react-router-dom
+
+
+
+http://profspevack.com/wp-content/uploads/2009/09/ADV2360_swilliams_book.jpg
+https://i.insider.com/511cffe5eab8ea1355000012?width=948
+https://s-i.huffpost.com/gen/1148926/images/o-CLASSIC-BOOKS-ORIGINAL-COVERS-facebook.jpg
+https://images.squarespace-cdn.com/content/573bf9761bbee0b32db4e9ff/1522752579602-PTSPN6QXNR06RFVWBJ6B/Kindle+Book+Cover+Template.jpg?format=1000w&content-type=image%2Fjpeg
+
+
+# add bootstrap 
+# terminal
+$ npm i bootstrap@4.1.1
+
+
+# require on index js
+$ import 'bootstrap/dist/css/bootstrap.css';
+
+
+#
+  cd counter-app
+  yarn start
+
+
+# FOLDER n File
+$ components
+$ jsx files
+$ counter.jsx
+
+# TEMPLATE CODE IN JSX
+$ imrc
+$ cc
+$ sic
+
+# go to indexes and import counterjsx
+$ import Counter from './components/counter'
+
+
+
+
+# context 
+## in context file
+import React, { useState, useContext  } from 'react' 
+ 
+const AppContext = React.createContext();
+
+
+const AppProvider = ({ children }) => {
+  const [loading, setLoading] = useState(true)
+  const [searchTerm, setSearchTerm] = useState('a')  
+
+    return (
+      <AppContext.Provider
+        value={{ loading}}
+      >
+        {children}
+      </AppContext.Provider>
+    )
+  }
+
+
+  // make sure use
+  export const useGlobalContext = () => {
+    return useContext(AppContext)
+  }
+  
+  export { AppContext, AppProvider }
+
+
+# in index js
+# # wrap by <AppProvider>
+
+import { AppProvider } from './context'
+
+ReactDOM.render(
+  <React.StrictMode>
+    <AppProvider>
+    <App />
+    </AppProvider>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+# in file u need them
+## import
+import { useGlobalContext } from '../context';
+
+# var
+const { cocktails, loading } = useGlobalContext();
+
+
+ 
+
+
+
+
+.
+## # # # #
+style={{float: "right"}}
+
+
+
+# ENV FILE
+# on main no strings
+$ .env
+$ REACT_APP_MOVIE_API_KEY=48f0a
+
+# call env > restart server > call any js form
+$  export const apiKey = `${process.env.REACT_APP_MOVIE_API_KEY}`
+
+
+
+
+# npm styled components
+$ npm install --save styled-components
+$ import styled from 'styled-components';
+const Container = styled.div `
+ Width: 100px
+` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+.
